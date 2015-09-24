@@ -19,6 +19,13 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 gem "devise"
 
+# Sabisu
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.2'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '~> 0.4.0', group: :doc

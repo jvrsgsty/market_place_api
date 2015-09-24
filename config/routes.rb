@@ -1,6 +1,7 @@
 require 'api_constraints'
 
 Rails.application.routes.draw do
+  mount SabisuRails::Engine => "/sabisu_rails"
   devise_for :users
   # Api definition
   # Rails will automatically map that namespace to a directory matching the 
